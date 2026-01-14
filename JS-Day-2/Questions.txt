@@ -1,0 +1,5 @@
+Q1. Iterate all the elements and print the elements
+Q2. Add 5 to each number inside the array.Take Arrey Length 5
+Q3. Reverce The Arrey. The elements should be numeric
+Q4. Sort the array in decending order
+Q5. Find The Duplicate element and return the unique array
