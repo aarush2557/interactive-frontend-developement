@@ -6,13 +6,13 @@ function greet(name) {
     console.log(name);
 }
 
-greet("Piyush");
+greet("AARUSH");
 
 // arrow function 
 
 const farewell = (name) => { console.log(name); };
 
-farewell("Piyush");
+farewel("AARUSH");
 
 // callback function => a function passed as an argument to another function
 
