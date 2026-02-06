@@ -13,3 +13,32 @@ console.log(newParagraph.textContent);
 //Append the new elemet to the container
 const contaoiner = document.getElementById("container");
 contaoiner.appendChild(newParagraph);
+
+
+//document.querySelector("#container p")
+
+// const con = document.getElementById
+// ("container");
+// const para = con.querySelector("p");
+
+//remove element
+document.querySelector("#container p").remove();
+
+//date
+let date = new Date()
+console.log(date);
+
+setTimeout(()=>{
+    console.log("welcome");
+    //alert("offer valid till 12 pm")
+})
+
+setInterval(()=>{
+    let date = new Date()
+    console.log(date);
+},1000)
+
+//event handle
+function handelClick(){
+    document.getElementById("output").textContent = "Button clicked!";
+}
