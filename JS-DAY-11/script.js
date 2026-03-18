@@ -1,10 +1,27 @@
-// find the error
+// function handleClick(){
+//     document.querySelector("#head").style.color="red";
 
-function handleClick() {
-    // document.querySelector("#head").style.color = "red";
-    // document.querySelector("#btn").textContent = " Button Clicked";
+//     document.getElementById("btn").textContent="color changed"
+// }
 
+// Q2.
+// const handleClick = () => {
+//     const image = document.createElement("img");
+//     image.setAttribute("src", "https://krmangalam.edu.in/_next/image?url=%2Flife-at-krmu%2Finfra.webp&w=3840&q=75")
+
+//     image.setAttribute("alt", "kr mangalam");
+
+//     document.getElementById("content").append(image);
+// }
+
+
+
+
+
+ document.getElementById("btn").addEventListener("click",()=>{
     const image = document.createElement("img");
-    image.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROgDj1fKbwyAjxoGGan-5jDPUOkHWMWBh3wg&s";
-    document.body.appendChild(image);
-}
+    image.setAttribute("src", "https://krmangalam.edu.in/_next/image?url=%2Flife-at-krmu%2Finfra.webp&w=3840&q=75")
+
+    image.setAttribute("alt", "kr mangalam");
+
+    document.getElementById("content").append(image);});
